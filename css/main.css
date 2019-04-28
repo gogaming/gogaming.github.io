@@ -1,11 +1,9 @@
 body {
 	font-family: Noto Sans, Arial, Helvetica, serif;
 	font-size: 150%;
-	background-color: #c1bcbc;
-    background-image: url("../img/rice_paper_v3.png") repeat round;
-    
-    /*background-color: #c1bcbc;
-    background-image: url("../img/Background-01-1920x1080.jpg");*/
+	background: #f2eedd url("../img/rice_paper_v3.png") repeat round;
+    /*background: #f2eedd url("../img/Background-01-1920x1080.jpg") no-repeat center fixed;
+    background-size: cover;*/
 }
 
 html {
