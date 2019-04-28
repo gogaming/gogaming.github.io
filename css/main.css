@@ -2,7 +2,7 @@ body {
 	font-family: Noto Sans, Arial, Helvetica, serif;
 	font-size: 150%;
 	/*background: #c1bcbc url("../img/rice_paper_v3.png") repeat round;*/
-    background: #c1bcbc url("../img/background-01-1923x1080") round;
+    background: #c1bcbc url("../img/Background-01-1920x1080") round;
 }
 
 html {
@@ -96,11 +96,12 @@ a:link {
 /* visited link */
 a:visited {
 	color: #753B00;
+    font-weight: bolder;
 }
 /* mouse over link */
 a:hover {
 	color: #753B00;
-    background-color: cornsilk;
+    /*background-color: cornsilk;*/
 
 }
 /* selected link */
