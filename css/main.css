@@ -70,7 +70,6 @@ article {
     background: #ffc000;
 	/*color: #000;*/
     color:#000; /* Text colour on hover */
-    font-weight: bolder;
 	text-shadow: none !important;
 }
 .mainHeader nav li a {
