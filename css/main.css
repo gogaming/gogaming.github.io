@@ -33,6 +33,14 @@ article {
 .bolder {
 	font-weight: bolder;
 }
+.disclaimer {
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 1.0em;
+    color: red;
+    font-weight: bolder;
+}
 
 /* ===========================
    ===== Main Navigation ===== 
