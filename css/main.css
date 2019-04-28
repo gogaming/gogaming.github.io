@@ -8,13 +8,14 @@ html {
 	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
 	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
-	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+	-ms-text-size-adjust:     100%; /* Control text size in safari for ios without disabling userzoom */
 
 }
 
 .wrap {
-		max-width: 925px;
-		margin: 50px auto;
+		/*max-width: 925px;*/
+        max-width: 1000px;
+        margin: 50px auto;
 		padding: 30px 40px;
 		text-align: center;
 		box-shadow: 0 4px 25px -4px #656565;
@@ -34,8 +35,9 @@ article {
 /* ===========================
    ===== Main Navigation ===== 
    =========================== */  
-.mainHeader nav {
-	background: #666;
+.mainHeader nav { /*nav bar */
+	/*background: #666;*/
+    background: #000; /* Add a black background color to the top navigation */
 	font-size: 1.143em;
 	height: 40px;
 	line-height: 30px;
@@ -53,7 +55,7 @@ article {
 	float: left; 
 	display: inline; 
 }
-.mainHeader nav a:link, .mainHeader nav a:visited {
+.mainHeader nav a:link, .mainHeader nav a:visited { /* Link text colour */
 	color: #fff;
 	display: inline-block;
 	height: 30px;
@@ -64,8 +66,11 @@ article {
 .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
 	/*background: #CF5C3F;*/
 	/*color: #fff;*/
-	background: #98D323;
-	color: #000;
+	/*background: #98D323;*/
+    background: #ffc000;
+	/*color: #000;*/
+    color:#000; /* Text colour on hover */
+    font-weight: 700;
 	text-shadow: none !important;
 }
 .mainHeader nav li a {
@@ -84,22 +89,22 @@ article {
 */
  /* unvisited link */
 a:link {
-	color: #036503;
+	color: #753B00;
 
 }
 /* visited link */
 a:visited {
-	color: #036503;
-;
+	color: #753B00;
 }
 /* mouse over link */
 a:hover {
-	color: #b46e0f;
+	color: #753B00;
+    background-color: cornsilk;
 
 }
 /* selected link */
 a:active {
-	color: #036503;
+	color: #753B00;
 
 }
 
@@ -131,7 +136,8 @@ a:active {
 	border-radius: 15px 15px 0px 0px;
 	-moz-border-radius: 15px 15px 0px 0px;
 	-webkit-border-radius: 15px 15px 0px 0px;	
-	background: url(../img/house-and-garden-header-1000x245px.jpg);
+	/*background: url(../img/house-and-garden-header-1000x245px.jpg);*/
+    background: url(../img/header02-1000x245.jpg);
 	background-position: left top;
 	background-repeat: repeat;
 	padding: 0px; 
@@ -165,8 +171,7 @@ a:active {
 	width: 100%;
 }
 .rTable {
-	display: table;
-	
+	display: table;	
 	margin: auto;
 	width: 100%;	
 }
@@ -184,6 +189,8 @@ a:active {
 }
 .rTableHead {
 	text-align: center;
+    color: #000;
+    background-color: #E0FFE0;
 }
 .rTableHeading {
 	display: table-header-group;
