@@ -76,9 +76,9 @@ article {
 	text-shadow: none !important;
 }
 .mainHeader nav li a {
-	border-radius: 5px;
+	/*border-radius: 5px;
 	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+	-webkit-border-radius: 5px;*/
 }
 .mainHeader img {
 	width: 100%;
